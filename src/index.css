@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
+}
+html{
+  scroll-behavior: smooth !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#carousel{
+max-height: 75vh;
+max-width: 96vw;
+margin: auto;
+object-fit: cover;
+}
+.card{
+  max-height: 450px !important;
+}
+.card>img{
+  max-height: 170px;
+  object-fit: cover;
+}
+
+
+.loginandSignin>Link{
+  margin: 0px 1rem;
+}
+
+
+
+/* Define styles for the thumb (drag handle) */
+::-webkit-scrollbar-thumb {
+  scrollbar-width: thin;
+  background-color: #3498db; /* Change the color as needed */
+}
+
+/* Define styles for the track (the area the thumb moves along) */
+::-webkit-scrollbar-track {
+  background-color: #ffffff; /* Change the color as needed */
+}
+
+/* On hover, show the scrollbar in a darker color */
+:hover::-webkit-scrollbar-thumb {
+  background-color: #2c3e50; /* Change the color as needed */
+}
+
+
+
